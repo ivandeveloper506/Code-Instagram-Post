@@ -1,0 +1,57 @@
+/*******************************************************************************/
+/* Fecha Creación: 03 Febrero 2021.                                            */
+/* Autor:          Iván Fonseca Castro                                         */
+/*                                                                             */
+/* Descripción:    Hoja principal de estilos, permite personalizar los estilos */
+/*                 a utilizar en los componentes del sitio Web.                */
+/*******************************************************************************/
+
+body{
+  background-color: lightgray;
+}
+
+#cajaTitulo {
+    background-color: white;
+    display: flex;
+    margin: 20px 400px 0px 400px;
+  }
+
+  #cajaTituloAbajo {
+    background-color: white;
+    display: flex;
+    margin: 0px 400px 0px 400px;
+  }
+
+  #cajaFotoPrincipal {
+    background-color: white;
+    display: flex;
+    margin: 0px 400px 0px 400px;
+  }
+
+  #cajaPie {
+    background-color: white;
+    display: flex;
+    margin: 0px 400px 0px 400px;
+    padding: 15px;
+  }
+
+  #tituloPrincipal{
+    background-color: white;
+    text-align: center;
+    padding: 1px;
+  }
+
+  .tituloIzquierda{
+    padding: 10px ;
+  }
+
+  .tituloDerecha{
+    flex-grow: 1;
+    text-align: right;
+    padding: 10px;
+  }
+
+  #cajaFoto{
+    height: 350px;
+    padding: 1px;
+  }
